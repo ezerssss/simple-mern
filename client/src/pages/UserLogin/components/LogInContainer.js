@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const LogInContainer = (props) => {
   const { logIn, handleSubmit } = props;
-  const text = logIn ? 'Log In' : 'Sign Up';
+  const text = logIn ? "Log In" : "Sign Up";
 
   return (
     <form onSubmit={handleSubmit}>
